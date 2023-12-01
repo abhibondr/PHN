@@ -1,0 +1,48 @@
+.bg {
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+}
+.apply {
+  text-align: center;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+form {
+  display: block;
+  /* box-shadow: 1px 1px 3px 2px #ddd; */
+  margin: 40px auto;
+  max-width: 600px;
+  max-height: 700px;
+  padding: 20px 40px;
+}
+
+form input,
+textarea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px auto;
+  padding: 8px;
+  font-family: Poppins;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
+
+form span {
+  color: rgb(9, 72, 114);
+}
+
+form button {
+  height: 45px;
+  width: 200px;
+  align-items: center;
+  border: none;
+  background-color: rgb(122, 77, 218);
+  color: #fff;
+  cursor: pointer;
+}
